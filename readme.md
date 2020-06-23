@@ -17,36 +17,36 @@ Hello World
 {"message":"Hello World - Changed"}
 ```
 
-- http://localhost:5000/hello-world/path-variable/in28minutes
+- http://localhost:5000/hello-world/path-variable/dowlath
 
 ```json
-{"message":"Hello World, in28minutes"}
+{"message":"Hello World, dowlath"}
 ```
 
 
 ## Hardcoded Service URLs
 
-- GET - http://localhost:5000/users/in28minutes/todos
+- GET - http://localhost:5000/users/dowlath/todos
 
 ```
 [
   {
     id: 1,
-    username: "in28minutes",
+    username: "dowlath",
     description: "Learn to Dance 2",
     targetDate: "2018-11-09T12:05:18.647+0000",
    : false,
   },
   {
     id: 2,
-    username: "in28minutes",
+    username: "dowlath",
     description: "Learn about Microservices 2",
     targetDate: "2018-11-09T12:05:18.647+0000",
    : false,
   },
   {
     id: 3,
-    username: "in28minutes",
+    username: "dowlath",
     description: "Learn about React",
     targetDate: "2018-11-09T12:05:18.647+0000",
    : false,
@@ -56,12 +56,12 @@ Hello World
 
 #### Retrieve a specific todo
 
-- GET - http://localhost:5000/users/in28minutes/todos/1
+- GET - http://localhost:5000/users/dowlath/todos/1
 
 ```
 {
   id: 1,
-  username: "in28minutes",
+  username: "dowlath",
   description: "Learn to Dance 2",
   targetDate: "2018-11-09T12:05:18.647+0000",
  : false,
