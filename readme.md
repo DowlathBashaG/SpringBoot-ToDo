@@ -70,11 +70,11 @@ Hello World
 
 #### Creating a new todo
 
-- POST to http://localhost:5000/users/in28minutes/todos with BODY of Request given below
+- POST to http://localhost:5000/users/dowlath/todos with BODY of Request given below
 
 ```
 {
-  "username": "in28minutes",
+  "username": "dowlath",
   "description": "Learn to Drive a Car",
   "targetDate": "2030-11-09T10:49:23.566+0000",
   "done": false
@@ -83,12 +83,12 @@ Hello World
 
 #### Updating a new todo
 
-- http://localhost:5000/users/in28minutes/todos/1 with BODY of Request given below
+- http://localhost:5000/users/dowlath/todos/1 with BODY of Request given below
 
 ```
 {
   "id": 1,
-  "username": "in28minutes",
+  "username": "dowlath",
   "description": "Learn to Drive a Car",
   "targetDate": "2045-11-09T10:49:23.566+0000",
   "done": false
@@ -97,32 +97,32 @@ Hello World
 
 #### Delete todo
 
-- DELETE to http://localhost:5000/users/in28minutes/todos/1
+- DELETE to http://localhost:5000/users/dowlath/todos/1
 
 
 ## JPA Service URLs
 
-- GET - http://localhost:5000/jpa/users/in28minutes/todos
+- GET - http://localhost:5000/jpa/users/dowlath/todos
 
 ```
 [
   {
     "id": 10001,
-    "username": "in28minutes",
+    "username": "dowlath",
     "description": "Learn JPA",
     "targetDate": "2019-06-27T06:30:30.696+0000",
     "done": false
   },
   {
     "id": 10002,
-    "username": "in28minutes",
+    "username": "dowlath",
     "description": "Learn Data JPA",
     "targetDate": "2019-06-27T06:30:30.700+0000",
     "done": false
   },
   {
     "id": 10003,
-    "username": "in28minutes",
+    "username": "dowlath",
     "description": "Learn Microservices",
     "targetDate": "2019-06-27T06:30:30.701+0000",
     "done": false
@@ -132,12 +132,12 @@ Hello World
 
 #### Retrieve a specific todo
 
-- GET - http://localhost:5000/jpa/users/in28minutes/todos/10001
+- GET - http://localhost:5000/jpa/users/dowlath/todos/10001
 
 ```
 {
   "id": 10001,
-  "username": "in28minutes",
+  "username": "dowlath",
   "description": "Learn JPA",
   "targetDate": "2019-06-27T06:30:30.696+0000",
   "done": false
@@ -146,11 +146,11 @@ Hello World
 
 #### Creating a new todo
 
-- POST to http://localhost:5000/jpa/users/in28minutes/todos with BODY of Request given below
+- POST to http://localhost:5000/jpa/users/dowlath/todos with BODY of Request given below
 
 ```
 {
-  "username": "in28minutes",
+  "username": "dowlath",
   "description": "Learn to Drive a Car",
   "targetDate": "2030-11-09T10:49:23.566+0000",
   "done": false
@@ -159,12 +159,12 @@ Hello World
 
 #### Updating a new todo
 
-- http://localhost:5000/jpa/users/in28minutes/todos/10001 with BODY of Request given below
+- http://localhost:5000/jpa/users/dowlath/todos/10001 with BODY of Request given below
 
 ```
 {
   "id": 10001,
-  "username": "in28minutes",
+  "username": "dowlath",
   "description": "Learn to Drive a Car",
   "targetDate": "2045-11-09T10:49:23.566+0000",
   "done": false
@@ -173,7 +173,7 @@ Hello World
 
 #### Delete todo
 
-- DELETE to http://localhost:5000/jpa/users/in28minutes/todos/10001
+- DELETE to http://localhost:5000/jpa/users/dowlath/todos/10001
 
 
 ## H2 Console
